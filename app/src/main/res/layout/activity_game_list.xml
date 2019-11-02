@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:descendantFocusability="blocksDescendants"
+    android:id="@+id/parent">
+
+    <ImageView
+        android:id="@+id/game_images"
+        android:layout_width="118dp"
+        android:layout_height="154dp"
+        android:text = "@string/game_images"
+        android:src="@drawable/acbrotherhood"
+         />
+
+    <TextView
+        android:id="@+id/tv_game_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/game_images"
+        android:text="@string/game_name"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_game_dev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="46dp"
+        android:layout_toEndOf="@+id/game_images"
+        android:text="@string/game_developer" />
+
+</RelativeLayout>

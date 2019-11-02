@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Favorite Games</string>
+    <string name="game_images">game_images</string>
+    <string name="game_name">Game Name</string>
+    <string name="game_developer">Game Developer</string>
+    <string name="game_detail">Game Detail</string>
+    <string name="spesifikasi">Spesifikasi</string>
+    <string name="game_publisher">Game Publisher</string>
+    <string name="game_platform">Game Platform</string>
+    <string name="game_genre">Game Genre</string>
+    <string name="game_modes">Game Modes</string>
+    <string name="game_release">Game Release</string>
+    <string name="my_email">My Email</string>
+    <string name="my_name">My Name</string>
+    <string name="about">About</string>
+</resources>
